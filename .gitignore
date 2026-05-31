@@ -30,3 +30,27 @@
 *.xlsx
 *.xls
 *.html
+
+# Build outputs
+embedded/firmware/cmake_gcc/build/
+embedded/firmware/simplicity_sdk_2025.12.3/
+
+# IDE files
+.vscode/
+*.slps
+
+# Generated files
+embedded/firmware/autogen/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Node
+node_modules/
+npm-debug.log
+
+# OS
+.DS_Store
+Thumbs.db
